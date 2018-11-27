@@ -25,4 +25,5 @@ def escape_spaces_2(string):
 if __name__ == "__main__":
   import sys
   print(escape_spaces_1(sys.argv[-1]))
+  print("/n")
   print(escape_spaces_2(sys.argv[-1]))
